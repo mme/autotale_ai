@@ -1,0 +1,14 @@
+[project]
+name = "autotale_ai"
+version = "0.0.1"
+dependencies = [
+  "langgraph",
+  "langchain_core",
+  "langchain_openai",
+  "langchain",
+  "openai"
+]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
